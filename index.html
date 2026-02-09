@@ -92,6 +92,25 @@
             content: "";
         }
 
+        /* --- ESTILO DAS TAGS DE COMPETÊNCIAS --- */
+        .tags-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }
+
+        .tag {
+            background-color: #f2f2f2;
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            padding: 4px 12px;
+            font-size: 12px;
+            color: #333;
+            font-weight: 500;
+            display: inline-block;
+        }
+
         /* --- SEÇÕES E LAYOUT DE COLUNAS --- */
         section {
             margin-bottom: 25px;
@@ -206,6 +225,11 @@
 
             .download-btn {
                 display: none !important; /* Esconde o botão no PDF */
+            }
+
+            .tag {
+                background-color: #f2f2f2 !important;
+                -webkit-print-color-adjust: exact;
             }
 
             /* Garante o layout de duas colunas na impressão */
@@ -337,13 +361,32 @@
             </div>
         </section>
 
+        <section>
+            <h2>Competências</h2>
+            <div class="tags-container">
+                <span class="tag">Experiência do Usuário (UX)</span>
+                <span class="tag">Design de Interfaces (UI)</span>
+                <span class="tag">Design Systems</span>
+                <span class="tag">Style Guides</span>
+                <span class="tag">Figma</span>
+                <span class="tag">Motion Design</span>
+                <span class="tag">Lógica de Programação</span>
+                <span class="tag">POO</span>
+                <span class="tag">Algoritmos e Estruturas de Dados</span>
+                <span class="tag">Java</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Programação Web</span>
+                <span class="tag">SQL</span>
+                <span class="tag">Colaboração Multidisciplinar</span>
+                <span class="tag">Adaptabilidade</span>
+                <span class="tag">Scrum</span>
+            </div>
+        </section>
+
     </div>
 
     <script>
         function imprimirPDF() {
-            // A função window.print() invoca a caixa de diálogo nativa do navegador/sistema.
-            // Para "Exportar", o usuário deve escolher "Salvar como PDF" nas opções da impressora.
-            // Esta é a melhor forma de manter o texto como vetor (selecionável) e alta qualidade.
             window.print();
         }
     </script>
