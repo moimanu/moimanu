@@ -15,8 +15,9 @@
     --tag-back: #ac39ff;
 }
 
-* {
-    -webkit-tap-highlight-color: transparent;
+button, a, input, div {
+    outline: none !important;
+    -webkit-tap-highlight-color: rgba(0,0,0,0) !important;
 }
 
 * {
@@ -24,6 +25,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 body {
