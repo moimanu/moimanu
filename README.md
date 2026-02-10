@@ -6,21 +6,23 @@ Sou UI Designer & Graduando em Sistemas de Informação (IFMG). Tenho um interes
 ---
 
 ## Sobre Mim
-- 🎓 Estudante de **Sistemas de Informação** (IFMG)
-- 🎨 Graduado em **Design Gráfico** (Uninter)
-- 💡 Foco em **UI Design** e **Desenvolvimento de Software**
+- Estudante de **Sistemas de Informação** (IFMG)
+- Graduado em **Design Gráfico** (Uninter)
+- Foco em **UI Design** e **Desenvolvimento de Software**
 
 ---
 
 ## Tecnologias e Ferramentas
 
-### Design & Prototipagem
+**Design & Prototipagem**
+
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-### 💻 Desenvolvimento
+**Desenvolvimento**
+
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
