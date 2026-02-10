@@ -210,8 +210,9 @@ body {
     bottom: 20px;
     right: 20px;
     display: flex;
-    gap: 10px;
+    gap: 16px;
     z-index: 1000;
+    background-color: transparent;
 }
 
 header h1 {
@@ -378,5 +379,28 @@ h2 {
     .entry {
         display: grid;
         grid-template-columns: 140px 1fr;
+    }
+}
+
+@media (max-width: 900px) {
+    .nav-ui {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        padding: 16px 24px;
+        background-color: #fff;
+        box-sizing: border-box;
+        box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .page-container {
+        margin-bottom: 70px; 
     }
 }
